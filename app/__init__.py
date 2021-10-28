@@ -1,3 +1,5 @@
+from flask import Flask
+
 def create_app(test_config=None):
   # set up app config
   app = Flask(__name__, static_url_path='/')
